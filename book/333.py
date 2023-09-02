@@ -5,3 +5,4 @@ resp = requests.get(url)
 sd_dict = resp.json()
 user_id = sd_dict['userId'] 
 print(user_id)
+print(sd_dict)
